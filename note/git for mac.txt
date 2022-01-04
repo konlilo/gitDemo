@@ -7,3 +7,5 @@ https://gist.github.com/kevin-smets/8568070
 展開列表: ls
 開資料夾: mkdir 資料夾名稱
 開新檔案: touch 檔案名稱
+--------------------------------
+iTerm2 : 在查詢 git log 時 離開要按 Q 才會回到原本畫面

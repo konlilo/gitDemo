@@ -22,4 +22,4 @@ git 設定
 加入索引(指定檔案加入索引): git add myAbc.txt
 檢查狀態: git status
 提交更新: git commit -m '修改紀錄'
-查詢繼續: git log 
+查詢紀錄(查詢commit紀錄): git log 
