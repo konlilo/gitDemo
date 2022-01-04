@@ -23,3 +23,30 @@ git 設定
 檢查狀態: git status
 提交更新: git commit -m '修改紀錄'
 查詢紀錄(查詢commit紀錄): git log 
+
+------ gitignore - 忽略檔案------------------
+使用 .gitignore 來忽略檔案
+
+新增gitignore: touch .gitignore
+===============================
+使用編輯器編輯 gitignore:
+輸入以下=>
+忽略指定檔案(ex. notAdd.txt):   notAdd.txt
+忽略全部檔案 (ex. html檔):      *.html檔
+忽略資料夾 (ex. folder資料夾):  folder/
+=================================
+新增完 可使用git status 確認
+gitignore 大全: https://github.com/github/gitignore
+-----------------------------------
+#取消索引
+全部檔案取消索引: git reset HEAD
+
+單一檔案取消索引: git reset HEAD 檔案名稱
+
+#還原檔案
+
+(檔案復原)恢復單一檔案到最新 commit 狀態
+git checkout 檔案名稱
+
+(還原所有)還原工作目錄與索引，會跟最後一次 commit 保持依樣
+$ git reset --hard
