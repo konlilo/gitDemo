@@ -50,3 +50,16 @@ git checkout 檔案名稱
 
 (還原所有)還原工作目錄與索引，會跟最後一次 commit 保持依樣
 $ git reset --hard
+--------------------------------------
+#結合 github遠端數據庫
+1.先去github註冊登入
+2.創建 new repository
+3.複製 該repository http網址
+4.clone http網址
+5.cd 進入該資料夾
+6.新增 修改xxxx 
+7.加入索引: git add .
+8.推送本地: git commit -m 'xxxxx'
+9.推送遠端: git push (之後需輸入帳密)
+
+
