@@ -1,0 +1,9 @@
+安裝 iTerm2 + Oh My Zsh + brew 並調整終端機高亮度設定
+https://gist.github.com/kevin-smets/8568070
+----------------------------------------------
+
+移動路徑: cd 路徑
+回上一層: cd ..
+展開列表: ls
+開資料夾: mkdir 資料夾名稱
+開新檔案: touch 檔案名稱

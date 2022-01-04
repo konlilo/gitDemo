@@ -1,0 +1,16 @@
+建議使用 git-bash 做設定
+
+移動路徑: cd 路徑
+可用 滑鼠拖曳到終端機視窗 ，就不用打路徑
+回上一層: cd ..
+展開列表: ls
+
+開新資料夾: mkdir 資料夾名稱
+開新檔案: touch 檔案名稱
+
+-------------------------------
+git 設定
+
+查看 config 設定: git config --list
+設定userName:  git config --global user.name "dimcjo6u4"
+設定userEmail: git config --global user.email "dimcjo6u4@gmail.com"
