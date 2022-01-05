@@ -1,0 +1,7 @@
+範例分支圖網址:
+https://nvie.com/posts/a-successful-git-branching-model/
+-----------------------------------------
+# HEAD 表示目前所在位置的指標
+瀏覽目前分支: git branch 
+還原(查看)到某版本: git checkout commit 前四碼
+還原到master最新版本: git checkout master 復原
