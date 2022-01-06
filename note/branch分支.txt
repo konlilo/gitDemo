@@ -5,3 +5,8 @@ https://nvie.com/posts/a-successful-git-branching-model/
 瀏覽目前分支: git branch 
 HEAD 還原(查看)到某版本: git checkout  前四碼
 HEAD 還原到master最新版本: git checkout master  
+--------------------------------------------
+#創建分支
+創新分支: git branch 分支名稱
+切到該分支: git checkout 分支名稱
+查詢該現在位置: git branch
