@@ -14,3 +14,5 @@ HEAD 還原到master最新版本: git checkout master
 #合併分支 merge
 1.先切換到 你在使用的支線(ex. master): git checkout master
 2.將 指定分支(ex. feature1) 合併到 目前的分支: git merge feature1
+-----------------------------------
+
