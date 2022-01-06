@@ -2,17 +2,28 @@
 https://nvie.com/posts/a-successful-git-branching-model/
 -----------------------------------------
 # HEAD 表示目前所在位置的指標
+
 瀏覽目前分支: git branch 
 HEAD 還原(查看)到某版本: git checkout  前四碼
 HEAD 還原到master最新版本: git checkout master  
 --------------------------------------------
 #創建分支
+
 創新分支: git branch 分支名稱
 切到該分支: git checkout 分支名稱
 查詢該現在位置: git branch
 --------------------------------------------
 #合併分支 merge
+
 1.先切換到 你在使用的支線(ex. master): git checkout master
 2.將 指定分支(ex. feature1) 合併到 目前的分支: git merge feature1
 -----------------------------------
+#標籤 - git tag
 
+查詢標籤: git tag
+查詢詳細標籤(可看內容備註): git tag  -n
+刪除標籤: git tag -d 標籤名稱
+新增輕量標籤: git tag 標籤名稱
+新增標示標籤: git tag -am "備註內容" 標籤名稱
+
+切換到標籤的commit: git checkout 標籤名稱
