@@ -1,0 +1,8 @@
+#如何推送分支到遠端數據庫
+查詢遠端數據庫(查看有幾個遠端數據庫): git remote
+
+更改遠端主機名稱: git remote rename 原名稱 修改名稱
+推送遠端: git push origin  master
+                  [預設遠端主機名稱] [分支名稱]
+
+推送遠端分支: git push origin 分支名稱
