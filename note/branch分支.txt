@@ -27,3 +27,17 @@ HEAD 還原到master最新版本: git checkout master
 新增標示標籤: git tag -am "備註內容" 標籤名稱
 
 切換到標籤的commit: git checkout 標籤名稱
+-----------------------------------------
+#git stash -暫存檔案
+可將暫存檔案帶到其他分支
+*****************************************
+情境: 工作到一半 要你優先處理其他緊急的事項
+使用stash 可暫時儲存目前工作到一半的內容 
+*****************************************
+
+暫時儲存當前目錄: git stash
+瀏覽 stash 列表: git stash list
+還原暫存: git stash pop
+
+清除最新暫存: git stash drop
+清除全部暫存: git stash clear
